@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krish Thakkar | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow p-4">
+    <div class="container mx-auto flex justify-between">
+      <h1 class="text-xl font-bold">Krish Thakkar</h1>
+      <div>
+        <a href="#projects" class="px-3">Projects</a>
+        <a href="#skills" class="px-3">Skills</a>
+        <a href="#contact" class="px-3">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+    <h2 class="text-4xl font-bold mb-4">Hello, I'm Krish 👋</h2>
+    <p class="text-lg">Aspiring Full Stack Developer | Computer Science Student</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container mx-auto py-16">
+    <h3 class="text-2xl font-bold mb-6">Projects</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white shadow p-4 rounded">
+        <h4 class="font-bold">Portfolio Website</h4>
+        <p>Built with HTML5 and Tailwind CSS.</p>
+      </div>
+      <div class="bg-white shadow p-4 rounded">
+        <h4 class="font-bold">MongoDB Integration</h4>
+        <p>Python + PyMongo project for database management.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="bg-gray-200 py-16">
+    <div class="container mx-auto">
+      <h3 class="text-2xl font-bold mb-6">Skills</h3>
+      <ul class="grid md:grid-cols-2 gap-4">
+        <li>Python Programming</li>
+        <li>SQL & MongoDB</li>
+        <li>HTML, CSS, Tailwind</li>
+        <li>Operating Systems Fundamentals</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container mx-auto py-16">
+    <h3 class="text-2xl font-bold mb-6">Contact</h3>
+    <p>Email: <a href="mailto:krish@example.com" class="text-blue-600">krish@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/krishthakkar" class="text-blue-600">github.com/krishthakkar</a></p>
+  </section>
+
+</body>
+</html>
